@@ -1,3 +1,7 @@
+//Assembly homework Week 1, Part 3
+//Written by: Mike Hoogendoorn
+//Date of last edit: 17-09-2019
+
 #include "hwlib.hpp"
 
 extern "C" {

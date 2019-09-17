@@ -1,18 +1,17 @@
-#include "hwlib.hpp"
-extern "C" void print_asciz( const char * s );
+//Assembly homework Week 1, Part 1
+//Written by: Mike Hoogendoorn
+//Date of last edit: 17-09-2019
 
-extern "C" void uart_put_char( char c );
+#include "hwlib.hpp"
+
+extern "C" {
+	void print_asciz( const char * s );
+	void uart_put_char( char c );
+}
 
 void uart_put_char( char c ){
    hwlib::cout << c;
 }
-
-//void print_asciz( const char * s ){
-//   while( *s != '\0'){
-//      uart_put_char( *s );
-//      ++s;
-//   }
-//}
 
 void application(){
    print_asciz( "Hello world\n" );	

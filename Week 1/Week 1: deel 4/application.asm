@@ -1,3 +1,7 @@
+@Assembly homework Week 1, Part 4
+@Written by: Mike Hoogendoorn
+@Date of last edit: 17-09-2019
+
 .data
 var1: .asciz "Hello world, the ANSWER is 42! @[]`{}~\n" @Write our string in memory.
 
