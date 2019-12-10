@@ -11,9 +11,9 @@
 
 class note_player_gpio : public note_player {
 private:   
-   hwlib::pin_out & lsp;
+   hwlib::target::pin_out & lsp;
 public: 
-   note_player_gpio( hwlib::pin_out & lsp ):
+   note_player_gpio( hwlib::target::pin_out & lsp ):
       lsp( lsp )
    {}
    
