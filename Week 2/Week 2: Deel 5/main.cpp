@@ -12,7 +12,7 @@ const char one[]          = "NumberOne:d=16,o=5,b=168:4f.,8c6,16b5,16c6,16b5,16c
 int main( void ){	
    
    namespace target = hwlib::target;   
-   auto lsp = target::pin_out( target::pins::d7 );
+   auto lsp = target::pin_out( target::pins::d4 );
    auto p = note_player_gpio( lsp );
    hwlib::wait_ms( 10 );
    
